@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { validateNote, createNewNote } = require('../lib/notes');
+const {  validateNote, createNewNote } = require('../lib/notes');
 const notes = require('../db/db.json');
 
 
@@ -10,13 +10,13 @@ router.get('/notes', (req, res) => {
 });
 
 // POST route
-router.post('/notes', (req, res) => {
+router.post('/notes', (req,res) => {
 
     // set id based on what the next index of the array will be
     req.body.id = notes.length.toString();
 
     if (!validateNote(req.body)) {
-        res.status(400).send('This note is not properly formatted');
+        res.status(400).send('The note is not property formatted');
     } else {
         const note = createNewNote(req.body, notes);
         res.json(note);

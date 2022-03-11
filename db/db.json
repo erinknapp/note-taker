@@ -2,5 +2,20 @@
     {
         "title":"Test Title",
         "text":"Test text"
+    },
+    {
+        "title": "Testy2",
+        "text": "this is some test text",
+        "id": "1"
+    },
+    {
+        "title": "Hello I am a note!",
+        "text": "Today is a rainy day",
+        "id": "2"
+    },
+    {
+        "title": "Shopping note",
+        "text": "buy milk and eggs",
+        "id": "3"
     }
 ]

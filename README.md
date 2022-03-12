@@ -8,8 +8,9 @@ Simple Note Taking application using Express and deployed to Heroku
 - Javascript
 - Express
 - Heroku
+- Node
 
 ## Website
-https://note-taker-eknapp.herokuapp.com/
+https://enigmatic-badlands-27849.herokuapp.com/
 
 ## Made with 💖 by Erin Knapp 2022

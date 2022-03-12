@@ -1,6 +1,6 @@
 const express = require('express');
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.port || 3001;
 //defining the routes needed from backend
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
